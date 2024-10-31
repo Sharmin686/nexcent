@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ui,li{
+    list-style: none;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+.btn-primary{
+    font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #fff;
+    background-color: #4caf4f;
+    padding: 14px 32px;
+}
+body{
+    font-family: Inter;
+}
+/* nav start */
+
+
+nav{
+    background-color: #f5f7fa ;
+    
+}
+nav .logo{
+    width: 25%;
+    padding: 15px ;
+    padding-left: 105px;
+}
+
+nav .menu{
+    width: 45%;
+
+}
+
+nav .menu ul{
+    justify-content: center;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    padding: 15px;
+    text-align: end;
+    text-transform: capitalize;
+}
+
+
+nav .menu ul li:hover a{
+    border-bottom: 2px solid rgb(21, 22, 23);
+}
+
+nav .quickmenu{
+    width: 30%;
+    padding: 11px 0 11px;
+}
+
+
+nav .quickmenu ul{
+    justify-content: center;
+
+
+}
+
+ .quickmenu a button {
+    padding-left: 7px;
+     border-radius: 6px;
+padding: 10px 20px; 
+font-weight: 500;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: #fff;
+background-color: #4caf4f;
+
+
+
+}
+/* nav end */
+
+/* banner start */
+#banner {
+    background-position: center;
+    background-size: cover;
+    background-color: #f5f7fa;
+    padding: 80.5px 144px; 
+    display: block; 
+}
+
+ #banner.row .bannercnt {
+    width: 60%;
+}
+#banner .row .pic{
+    width: 40%;
+    text-align: end;
+}
+
+
+.bannercnt h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 119%;
+    color:#4d4d4d ;
+    padding-bottom: 16px;
+}
+
+.bannercnt p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #717171;
+padding-bottom: 32px;
+}
+
+.bannercnt a button{
+    
+    border-radius: 4px;
+    padding: 14px 32px;
+    width: 128px;
+    height: 52px;
+    background-color:#4caf4f ;
+    font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #fff;
+
+}
+
+.bannercnt button{
+    padding-bottom: 161px;
+}
+
+
+/* banner end */
+
+/* category 1 start */
+
+#category{
+    margin-top: 40px;
+    padding: 0px 144px;
+width: 1440px;
+height: 190px;
+}
+.text h1{
+    text-align: center;
+    font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+text-align: center;
+color: #4d4d4d;
+}
+
+.text p{
+    text-align: center;
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #717171 ;
+padding-bottom: 16px;
+}
+
+.icon ul li {
+    border-radius: 8px;
+    font-size: 24px;
+    display: inline-block;
+    padding: 12.5px 68px 12.5px 68px;   
+}
+#category{
+    margin-bottom: 20px;
+}
+/* category 1 end */
+
+
+/* category 2 start */
+
+#container .text h1{
+    text-align: center;
+    font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+text-align: center;
+color: #4d4d4d;
+}
+
+#container .text p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color:#717171 ;
+padding: 8px 0 8px;
+}
+
+
+#container .row .card{
+    text-align: center;
+    width: 33.33%;
+       
+}
+
+
+#container .row .card{
+    background-color: #fff;
+}
+
+#container .card{
+    border-radius: 8px;
+padding: 24px 32px;
+}
+    
+#container .row .card a{
+    font-size: 24px;
+    padding-bottom: 24px;
+    background-color: rgb(228, 241, 216);
+}
+
+
+
+#container .row .card h1{
+    padding: 16px;
+    font-weight: 700;
+font-size: 28px;
+line-height: 129%;
+text-align: center;
+color: #4d4d4d;
+}
+
+#container .row .card p{
+    padding-top: 4px 0 12px;
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: #717171;
+}
+#container{
+    margin-bottom: 21px;
+}
+
+/* category 2 end */
+
+/* category 3 stary */
+
+#category2 .row .pic{
+    width: 40%;
+    padding: 21px 0 24px 144px;
+}
+
+#category2 .row .text{
+    width: 60%;
+}
+
+#category2 .row .text h1{
+    padding: 41px 102px 0 24.5px;
+    font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+color:  #4d4d4d;
+text-align: left;
+padding-bottom: 8px;
+}
+ #category2 .row .text p{
+  text-align: left;
+  padding: 8px 0 0 24.5px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+color: #717171 ;
+ }
+
+/* category 3 end */
+
+/* category 4 start */
+
+#container3{
+    background-color: #f5f7fa;
+    margin-top: 24px;
+}
+
+#container3 .row h1{
+    padding: 48px 0 4px 144px;
+    font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+color: #4d4d4d;
+}
+
+#container3 .row p{
+    padding: 4px 0 48px 144px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #18191f;
+}
+ #part2 .row{
+    padding: 32px 144px 32px 36px;
+}
+#part2 .row ul li{
+    display: inline-block;
+    padding: 32px 0 20px 36px;
+
+   
+}
+/* category 4 end */
+
+/* category 5 start */
+
+#container4 {
+     margin-top: 21px;
+     
+}
+
+#container4 .row .pic{
+    width: 40%;
+    padding-left: 72px;
+}
+
+#container4 .row .text{
+    width: 60%;
+    padding: 31px 72px 31px 25px;
+    
+}
+
+#container4 .row .text  h1{
+   text-align: left;
+   font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+color: #717171;
+padding: 32px 0 8px ;
+}
+
+#container4 .row .text  p{
+    text-align: left;
+    padding: 8px 0 8px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+color: #717171;
+}
+
+
+
+/* category 5 end */
+
+/* container 6 start */
+#container5{
+  margin-top: 24px; 
+  background-color: #f5f7fa;
+}
+
+#container5 .row .pic{
+ width: 30%;
+ padding: 32px 0 32px 144px;
+}
+
+#container5 .row .text{
+ width: 70%;
+ padding: 16.5px 144px 16.5px 85px;
+ 
+}
+#container5 .row .text .paragraph .p1{
+    padding-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #717171;
+    text-align: left;
+}
+#container5 .row .text .paragraph .p2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color:  #4caf4f;
+    text-align: left;
+    padding: 8px 0 4px 0;
+}
+
+#container5 .row .text .paragraph .p3{
+    text-align: left;
+    padding: 4px 0 16px 0;
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #89939e;
+}
+
+#container5 .row .text .logo{
+    padding: 16px 0 330x 0;
+}
+#container5 .row .text .logo ul li{
+    display: inline-block;
+    padding: 20.5px;
+    font-size: 24px;
+}
+/* container 6 end */
